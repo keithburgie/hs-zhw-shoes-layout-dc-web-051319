@@ -24,7 +24,7 @@
 
 /* Positioning Classes */
 .col-wrapper {
-  display: block;
+  display: table;
   position: relative;
   margin-bottom: 1em;
 }
@@ -34,6 +34,7 @@
   display: table;
 }
 .col-wrapper > section {
+  display: table-cell;
   float: left;
   margin-left: 2%;
   width: 32%
