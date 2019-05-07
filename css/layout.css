@@ -34,8 +34,8 @@
 .col-wrapper > section:first-child {
   margin-left: 0;
 }
-.two-col-wrapper > section {
-  width: 49%;
+.two-col-wrapper > section:first-child {
+  width: 64%
 }
 .three-col-wrapper > section {
   width: 32%;
