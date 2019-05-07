@@ -26,6 +26,7 @@
 .col-wrapper {
   display: block;
   position: relative;
+  overflow: auto;
 }
 .col-wrapper > section {
   float: left;
