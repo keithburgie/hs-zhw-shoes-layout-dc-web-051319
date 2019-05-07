@@ -23,8 +23,17 @@
 }
 
 /* Positioning Classes */
+.two-col-wrapper {
+  display: block;
+}
 .two-col-wrapper > section {
-  
+  width: 49%;
+  float: left;
+  margin-left: 2%;
+}
+
+.two-col-wrapper > section:first-child {
+  margin-left: 0;
 }
 .three-col-wrapper > section {
   
