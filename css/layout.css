@@ -26,7 +26,11 @@
 .col-wrapper {
   display: block;
   position: relative;
-  overflow: auto;
+}
+.col-wrapper::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 .col-wrapper > section {
   float: left;
