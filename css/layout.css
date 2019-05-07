@@ -30,14 +30,12 @@
 .col-wrapper > section {
   float: left;
   margin-left: 2%;
+  width: 32%
 }
 .col-wrapper > section:first-child {
   margin-left: 0;
 }
 .two-col-wrapper > section:first-child {
   width: 64%
-}
-.three-col-wrapper > section {
-  width: 32%;
 }
 
