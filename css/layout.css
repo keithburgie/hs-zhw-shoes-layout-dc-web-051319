@@ -26,6 +26,7 @@
 .col-wrapper {
   display: block;
   position: relative;
+  margin-bottom: 1%;
 }
 .col-wrapper::after {
   content: "";
