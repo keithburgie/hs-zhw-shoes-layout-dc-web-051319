@@ -23,19 +23,21 @@
 }
 
 /* Positioning Classes */
-.two-col-wrapper {
+.col-wrapper {
   display: block;
+  position: relative;
 }
-.two-col-wrapper > section {
-  width: 49%;
+.col-wrapper > section {
   float: left;
   margin-left: 2%;
 }
-
-.two-col-wrapper > section:first-child {
+.col-wrapper > section:first-child {
   margin-left: 0;
 }
+.two-col-wrapper > section {
+  width: 49%;
+}
 .three-col-wrapper > section {
-  
+  width: 32%;
 }
 
